@@ -15,7 +15,31 @@ A zero-dependency Java library to generate meaningful dummy data for any POJO cl
 
 ## Quick Start
 
+# DummyGen
 
+A zero-dependency Java library to generate meaningful dummy data for any POJO class. Perfect for unit tests, prototyping, or UI development where realistic mock data is needed.
+
+> 📦 This library is published via [JitPack](https://jitpack.io/) — no need for Maven Central!
+
+---
+
+## Installation
+
+This project is distributed via **[JitPack](https://jitpack.io)**. Make sure your `build.gradle` includes the JitPack repository:
+
+### Gradle
+
+```groovy
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.bartucank:dummygen:V1.0.0'
+}
+```
+> Replace `V1.0.0` with the latest version from [JitPack](https://jitpack.io/#bartucank/dummygen) or [GitHub Releases](https://github.com/bartucank/dummygen/releases).
 ### Basic Usage
 
 ```java
