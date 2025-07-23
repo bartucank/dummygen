@@ -25,35 +25,21 @@ publishing {
     publications {
         maven(MavenPublication) {
             from components.java
-            
-            pom {
-                name = 'DummyGen'
-                description = 'A zero-dependency Java library to generate meaningful dummy data for any POJO class'
-                url = 'https://github.com/bartucank/dummygen'
-                
-                licenses {
-                    license {
-                        name = 'MIT License'
-                        url = 'https://opensource.org/licenses/MIT'
-                    }
-                }
-                
-                developers {
-                    developer {
-                        id = 'bartucank'
-                        name = 'Bartu'
-                    }
-                }
-                
-                scm {
-                    connection = 'scm:git:git://github.com/bartucank/dummygen.git'
-                    developerConnection = 'scm:git:ssh://github.com:bartucank/dummygen.git'
-                    url = 'https://github.com/bartucank/dummygen/tree/main'
-                }
+        }
+    }
+
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/bartucank/dummygen")
+            credentials {
+                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
             }
         }
     }
 }
+
 
 test {
     useJUnit()
