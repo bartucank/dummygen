@@ -2,6 +2,9 @@
 
 A zero-dependency Java library to generate meaningful dummy data for any POJO class. Perfect for unit tests, prototyping, or UI development where realistic mock data is needed.
 
+> 📦 This library is published via [JitPack](https://jitpack.io/) — no need for Maven Central!
+---
+
 ## Features
 
 - 🎯 **Zero Dependencies**: No external libraries required
@@ -13,15 +16,6 @@ A zero-dependency Java library to generate meaningful dummy data for any POJO cl
 - 🎲 **Smart Type Detection**: Handles primitives, dates, enums, and more
 - 📦 **Easy Integration**: Works with both Maven and Gradle
 
-## Quick Start
-
-# DummyGen
-
-A zero-dependency Java library to generate meaningful dummy data for any POJO class. Perfect for unit tests, prototyping, or UI development where realistic mock data is needed.
-
-> 📦 This library is published via [JitPack](https://jitpack.io/) — no need for Maven Central!
-
----
 
 ## Installation
 
