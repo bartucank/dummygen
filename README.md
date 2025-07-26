@@ -30,10 +30,10 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.bartucank:dummygen:V1.0.0'
+    implementation 'com.github.bartucank:dummygen:V1.1.0'
 }
 ```
-> Replace `V1.0.0` with the latest version from [JitPack](https://jitpack.io/#bartucank/dummygen) or [GitHub Releases](https://github.com/bartucank/dummygen/releases).
+> Replace `V1.1.0` with the latest version from [JitPack](https://jitpack.io/#bartucank/dummygen) or [GitHub Releases](https://github.com/bartucank/dummygen/releases).
 ### Basic Usage
 
 ```java
@@ -207,3 +207,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - English and Turkish language support
 - Context-aware field generation
 - Zero external dependencies
+
+### v1.1.0
+- Some bug fixes
+- Test added

@@ -1,5 +1,7 @@
 package com.bartu.dummygen.config;
 
+import java.util.Objects;
+
 /**
  * Configuration class for DummyGen data generation.
  * 
@@ -134,7 +136,7 @@ public class DummyConfig {
         }
 
         public Builder maxListSize(int maxListSize) {
-            this.maxListSize = maxListSize;
+            this.maxListSize = Objects.nonNull(maxListSize) && maxListSize > 0 ? maxListSize : 3;
             return this;
         }
 

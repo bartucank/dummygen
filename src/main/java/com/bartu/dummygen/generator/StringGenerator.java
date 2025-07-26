@@ -331,29 +331,6 @@ public class StringGenerator {
         return data;
     }
 
-    private List<String> initializeCities() {
-        List<String> cities = new ArrayList<>();
-        cities.add("Istanbul");
-        cities.add("Ankara");
-        cities.add("Izmir");
-        cities.add("Bursa");
-        cities.add("Antalya");
-        cities.add("Adana");
-        cities.add("New York");
-        cities.add("Los Angeles");
-        cities.add("Chicago");
-        cities.add("Houston");
-        cities.add("Phoenix");
-        cities.add("Philadelphia");
-        cities.add("London");
-        cities.add("Berlin");
-        cities.add("Paris");
-        cities.add("Madrid");
-        cities.add("Rome");
-        cities.add("Amsterdam");
-        return cities;
-    }
-
     private List<String> initializeDomains() {
         List<String> domains = new ArrayList<>();
         domains.add("gmail.com");
